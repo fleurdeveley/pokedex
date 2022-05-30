@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Bienvenue sur le Pokedex</h1>
+
+    <form class="pokemon-search">
+        <label for="search">Chercher un pokemon</label>
+        <input type="text" id="search">
+        <!-- <button type="submit">Rechercher</button> -->
+
+        <!-- loader -->
+        <div class="loader">
+            <div class="point"></div>
+            <div class="point"></div>
+            <div class="point"></div>
+        </div>
+    </form>
+
+    <div class="container">
+        <ul class="pokemon-list"></ul>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
